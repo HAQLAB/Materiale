@@ -10,7 +10,7 @@ Cliccare su 'Download config (.ovpn)' scegliendo la configurazione avente 'Port 
 Cliccare su 'Create Username and Password'
 
 Nel terminale:
-sudo openvpn --config <path/del/file/di/configurazione-80.ovpn 
+sudo openvpn --config /path/del/file/di/configurazione-80.ovpn
 
 Inserire username e password generati prima dal sito.
 --------------------------------------------------------------------------------------------------
