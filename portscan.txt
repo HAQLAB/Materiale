@@ -1,0 +1,10 @@
+for port in {1..1000}; do timeout 1 bash -c "echo >/dev/tcp/localhost/$port" && echo "port $port is open";done
+
+
+OPPURE
+
+for port in `seq 1 65535`; do nc -z localhost $port && echo "$port Open"; done
+
+OPPURE
+
+for p in {0..65535};do((bash -c "(>/dev/tcp/localhost/$p)" 2> /dev/null && echo open: $p)&read -t0.1;kill $! 2>/dev/null)2>/dev/null;done;
