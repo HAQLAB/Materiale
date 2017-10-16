@@ -39,4 +39,5 @@ strace per vedere le syscall usate da un programma
 setuid, uid, euid
 come usare il comando tr per eseguire un rot13
 come eseguire uno scanning delle porte senza usare nmap
-come eseguire una shell dal programma more
+come eseguire una shell dal programma more e vedere come more non termini la sua esecuzione
+   se la lunghezza del file che sta leggendo è maggiore dell'altezza del terminale. 
