@@ -26,3 +26,13 @@ nel file /etc/resolv.conf
 --------------------------------------------------------------------------------------------------
 
 Terminati tutti i livelli del gioco bandit.labs.overthewire.org.
+
+Cose interessanti viste:
+
+opzioni di ssh come -i -t
+vari usi di netcat
+qualche opzione del comando find
+come usare cicli for nella bash per eseguire un attacco bruteforce
+ltrace per vedere le funzioni di libreria chiamate da un programma
+strace per vedere le systemcall usate da un programma
+setuid, uid, euid
