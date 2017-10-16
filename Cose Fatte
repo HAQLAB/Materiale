@@ -34,6 +34,8 @@ vari usi di netcat
 come usare openssl per connettersi a server che usano una encryption ssl
 qualche opzione del comando find
 come usare cicli for nella bash per eseguire un attacco bruteforce
+strings per vedere le stringhe all'interno di un file
+vari comandi come base64, xxd, uniq, diff, sort, tar, gunzip, bzip2, etc
 ltrace per vedere le funzioni di libreria chiamate da un programma
 strace per vedere le syscall usate da un programma
 setuid, uid, euid
