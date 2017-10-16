@@ -1,0 +1,28 @@
+Configuarazione di openvpn per permettere la connessione al server.
+
+Nel terminale:
+sudo apt-get -y install openvpn
+
+Andare sul sito https://www.tcpvpn.com/home
+Cliccare su 'Select in Europe'      (o uno a propria scelta)
+Cliccare su 'Select Server Germany' (o uno a propria scelta)
+Cliccare su 'Download config (.ovpn)' scegliendo la configurazione avente 'Port 443 and 80'
+Cliccare su 'Create Username and Password'
+
+Nel terminale:
+sudo openvpn --config <path/del/file/di/configurazione-80.ovpn 
+
+Inserire username e password generati prima dal sito.
+--------------------------------------------------------------------------------------------------
+
+Configurazione dei dns per permettere le connessioni.
+
+Aggiungere la riga
+
+nameserver 8.8.8.8
+
+nel file /etc/resolv.conf
+
+--------------------------------------------------------------------------------------------------
+
+Terminati tutti i livelli del gioco bandit.labs.overthewire.org.
