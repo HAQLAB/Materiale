@@ -1,4 +1,4 @@
-Configuarazione di openvpn per permettere la connessione al server.
+Configurazione di openvpn per permettere la connessione al server.
 
 Nel terminale:
 sudo apt-get -y install openvpn
