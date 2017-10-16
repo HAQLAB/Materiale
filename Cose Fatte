@@ -31,6 +31,7 @@ Cose interessanti viste:
 
 opzioni di ssh come -i -t
 vari usi di netcat
+come usare openssl per connettersi a server che usano una encryption ssl
 qualche opzione del comando find
 come usare cicli for nella bash per eseguire un attacco bruteforce
 ltrace per vedere le funzioni di libreria chiamate da un programma
