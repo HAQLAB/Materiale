@@ -38,3 +38,5 @@ ltrace per vedere le funzioni di libreria chiamate da un programma
 strace per vedere le syscall usate da un programma
 setuid, uid, euid
 come usare il comando tr per eseguire un rot13
+come eseguire uno scanning delle porte senza usare nmap
+come eseguire una shell dal programma more
