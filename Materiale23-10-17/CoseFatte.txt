@@ -4,7 +4,7 @@ Visto come viene impostato lo stack per eseguire una funzione nell'x86. (ref: ht
 Visti alcuni comandi basilari di gdb.
 
 Per ripassare gli argomenti fatti:
-Leggere cap. 10 e 11 del libro "Gray Hat Hacking" postato sul gruppo.
+Leggere cap. 10 del libro "Gray Hat Hacking" postato sul gruppo.
 Leggere cap. 2 del libro "Hacking the art of exploitation" postato sul gruppo.
 Leggere "gdb: manuale di rapida consultazione" postato sul gruppo.
 
