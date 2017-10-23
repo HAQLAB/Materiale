@@ -1,1 +1,13 @@
 
+Terminato il gioco leviathan.labs.overthewire.org (ma che riprenderemo).
+Visto come trovare passwords in binari non offuscati con comandi come strings ed ltrace o tramite gdb.
+Visto come viene impostato lo stack per eseguire una funzione nell'x86. (ref: https://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
+Visti alcuni comandi basilari di gdb.
+
+Per ripassare gli argomenti fatti:
+Leggere cap. 10 e 11 del libro "Gray Hat Hacking" postato sul gruppo.
+Leggere cap. 2 del libro "Hacking the art of exploitation" postato sul gruppo.
+Leggere "gdb: manuale di rapida consultazione" postato sul gruppo.
+
+Per esercitarsi su linux e semplici vulnerabilità di programmi in C:
+https://exploit-exercises.com/nebula/
