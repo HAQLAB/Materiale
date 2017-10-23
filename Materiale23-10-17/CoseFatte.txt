@@ -5,7 +5,7 @@ Visti alcuni comandi basilari di gdb.
 
 Per ripassare gli argomenti fatti:
 Leggere cap. 10 del libro "Gray Hat Hacking" postato sul gruppo.
-Leggere cap. 2 del libro "Hacking the art of exploitation" postato sul gruppo.
+Leggere cap. 2 del libro "L'arte dell'hacking vol. 1" postato sul gruppo.
 Leggere "gdb: manuale di rapida consultazione" postato sul gruppo.
 
 Per esercitarsi su linux e semplici vulnerabilità di programmi in C:
