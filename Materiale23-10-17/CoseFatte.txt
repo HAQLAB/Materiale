@@ -1,6 +1,6 @@
 Terminato il gioco leviathan.labs.overthewire.org (ma che riprenderemo).
 Visto come trovare passwords in binari non offuscati con comandi come strings ed ltrace o tramite gdb.
-Visto come viene impostato lo stack per eseguire una funzione nell'x86. (ref: https://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
+Visto come viene impostato lo stack per eseguire una funzione in un pc che usa Linux e un processore x86. (ref: https://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
 Visti alcuni comandi basilari di gdb.
 
 Per ripassare gli argomenti fatti:
