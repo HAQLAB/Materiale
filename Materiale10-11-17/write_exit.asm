@@ -11,7 +11,7 @@ _start:
                          ;eax   ebx        ecx              edx
   ;eseguiamo la syscall write(int fd, const void *buf, size_t count)
   mov bl, 0x1       ;standard output
-  push cl           ;pushiamo uno zero sulla stack
+  push cl           ;pushiamo uno zero sullo stack
   push 0x44434241   ;pushiamo la stringa ABCD(little-endian) sullo stack
   mov ecx, esp      ;mettiamo in ecx l'indirizzo del top dello stack (ovvero della stringa ABCD)
   mov dl, 0x4       ;stampiamo 4 caratteri con la write
