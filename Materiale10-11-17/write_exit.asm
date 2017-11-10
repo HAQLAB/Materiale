@@ -25,6 +25,6 @@ _start:
   xor ecx, ecx
   xor edx, edx
   
-  ;eseguiamo la syscall exit(0)
+  ;eseguiamo la syscall exit(0). ebx contiene già il valore 0
   mov al, 0x1
   int 0x80
