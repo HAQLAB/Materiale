@@ -14,6 +14,7 @@ _start:
   push cl           ;pushiamo uno zero sulla stack
   push 0x44434241   ;pushiamo la stringa ABCD(little-endian) sullo stack
   mov ecx, esp      ;mettiamo in ecx l'indirizzo del top dello stack (ovvero della stringa ABCD)
+  mov dl, 0x4       ;stampiamo 4 caratteri con la write
   mov al, 0x4       ;mettiamo negli ultimi 8 bit di eax il valore della syscall write (cat /usr/include/x86_64-linux-gnu/asm/unistd_32.h|grep write)
   
   int 0x80          ;chiamiamo un interrupt che fa eseguire la syscall
