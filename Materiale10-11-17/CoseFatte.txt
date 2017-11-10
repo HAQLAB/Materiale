@@ -6,4 +6,4 @@ e non ci sia alcun meccanismo di protezione.
 - Per approfondire : leggere Cap 3 del libro l'arte dell'hacking.
                      leggere Cap1 e prima parte del Cap2 del libro The Shellcoder's handbook.
                      leggere lo storico articolo http://insecure.org/stf/smashstack.html
-                     leggere il codice presente in: 
+                     leggere i programmi presenti nella cartella che contiene anche questo file.
