@@ -1,6 +1,7 @@
 - Completati il livello 0 e 1 di narnia.labs.overthewire.org
 - Visto come sovrascrivere una semplice variabile nello stack nel caso in cui ci sia una vuln di tipo buffer overflow
 e non ci sia alcun meccanismo di protezione.
+- Visto come una shell che non ha lo std input aperto termini la sua esecuzione automaticamente.
 - Visto come scrivere uno shellcode a 32 bit che esegua una write ed una exit.
 - Visto come scrivere uno shellcode a 32 bit che esegua una execve ed invochi una shell.
 - Per approfondire : leggere Cap 3 del libro l'arte dell'hacking.
