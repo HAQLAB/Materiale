@@ -6,5 +6,5 @@ e non ci sia alcun meccanismo di protezione.
 - Visto come scrivere uno shellcode a 32 bit che esegua una execve ed invochi una shell.
 - Per approfondire : leggere Cap 3 del libro l'arte dell'hacking.
                      leggere Cap1 e prima parte del Cap2 del libro The Shellcoder's handbook.
-                     leggere lo storico articolo http://insecure.org/stf/smashstack.html
+                     leggere lo storico articolo http://phrack.org/issues/49/14.html#article
                      leggere i programmi presenti nella cartella che contiene anche questo file.
