@@ -1,0 +1,10 @@
+Per compilare i files .asm a 32 bit
+nasm -f elf -o shellcode.o shellcode.asm
+ld -m elf_i386 -o shellcode shellcode.o
+
+
+Per esaminare lo shellcode
+objdump -d shellcode
+
+Per estrarre lo shellcode vero e proprio
+for i in $(objdump -d shellcode|grep '^ '|cut -f2); do echo -n '\x'$i;done;echo
