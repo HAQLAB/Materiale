@@ -18,7 +18,7 @@ _start:
 		xor ecx, ecx
 		xor edx, edx
 
-		jmp stromboli
+		jmp stromboli        ;saltiamo incondizionatamente al pezzo di codice che si trova dopo la label stromboli
 
 topolino:
 		pop ebx              ;ora ebx contiene l'indirizzo della stringa '/bin/shh'
