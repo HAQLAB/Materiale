@@ -12,5 +12,5 @@ e non ci sia alcun meccanismo di protezione.
                      leggere lo storico articolo http://phrack.org/issues/49/14.html#article
                      leggere i programmi presenti nella cartella che contiene anche questo file.
 
-- valutazioni preliminari per la creazione di un sito web per HAQlab. Tra le idee: la creazione di una canale youtube, simulazione di attività Red Team VS Blue Team event.
+- valutazioni preliminari per la creazione di un sito web per HAQlab. Tra le idee: la creazione di una canale youtube, simulazione di attività Red Team VS Blue Team "war games".
 - breve intro a Mininet (http://mininet.org/) con test dei primi comandi e possibili utilizzi futuri sia in stile replicazione network attacks che eventuale utilizzo in CTF event. 
