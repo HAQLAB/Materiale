@@ -14,3 +14,5 @@ e non ci sia alcun meccanismo di protezione.
 
 - valutazioni preliminari per la creazione di un sito web per HAQlab. Tra le idee: la creazione di una canale youtube, simulazione di attività Red Team VS Blue Team "war games".
 - breve intro a Mininet (http://mininet.org/) con test dei primi comandi e possibili utilizzi futuri sia in stile replicazione network attacks che eventuale utilizzo in CTF event. 
+- per chi vuole cominciare a giocare con Mininet qui: https://github.com/mininet/mininet/releases/download/2.2.2/mininet-2.2.2-170321-ubuntu-14.04.4-server-amd64.zip  una comoda macchina virtuale con cui accedere mediante login: mininet and pwd: mininet (buon divertimento a tutti)  :D
+- appena maturate l'interesse per Mininet potete divertirvi simulado un DHCP masquerade attack seguendo questo lab:  https://github.com/mininet/mininet/wiki/Dhcp-masquerade-attack
