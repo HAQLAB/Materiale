@@ -7,6 +7,6 @@
  istruzioni contenute all'interno di un buffer nello stack.
  - Visto come, nel caso in cui non sia attivato l'ASLR, sia possibile ottenere l'indirizzo di qualsiasi variabile d'ambiente
   nello stack.
- - Visto brevemente come riempire un buffer in memoria con un nop sled seguito da uno shellcode e fare in modo che, tramite
+ - Visto brevemente come riempire un buffer in memoria con un nop sled seguito da uno shellcode e, tramite
  un buffer overflow, dirottare l'esecuzione del programma per farlo eseguire.
  - Visto il sito https://packetstormsecurity.com/files/tags/shellcode/ per mostrare possibili shellcodes.
