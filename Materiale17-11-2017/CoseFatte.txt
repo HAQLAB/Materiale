@@ -1,0 +1,10 @@
+- Completato il livello narnia2 di narnia.labs.overthewire.org
+- Visto come, data una vulnerabilità di tipo Buffer Overflow e protezioni dello stack disattivate, fare in modo
+ di sovrascrivere il contenuto dello stack, comprese le locazioni di quest'ultimo contenti indirizzo del base pointer 
+ della funzione chiamante e l'indirizzo di ritorno all'istruzione nella funzione chiamante successiva all'applicazione della
+ funzione chiamata. Quindi abbiamo visto come dirottare il Program Counter in modo da fargli eseguire istruzioni a nostro
+ piacimento, come istruzioni contenute all'interno di una variabile d'ambiente (inizializzata con uno shellcode) o come
+ istruzioni contenute all'interno di un buffer nello stack.
+ - Visto brevemente come riempire un buffer in memoria con un nop sled seguito da uno shellcode e fare in modo che, tramite
+ un buffer overflow, dirottare l'esecuzione del programma per farlo eseguire.
+ - Visto il sito https://packetstormsecurity.com/files/tags/shellcode/ per mostrare possibili shellcodes.
