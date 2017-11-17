@@ -1,6 +1,6 @@
 - Completato il livello narnia2 di narnia.labs.overthewire.org
 - Visto come, data una vulnerabilità di tipo Buffer Overflow e protezioni dello stack disattivate, fare in modo
- di sovrascrivere il contenuto dello stack, comprese le locazioni di quest'ultimo contenti indirizzo del base pointer 
+ di sovrascrivere il contenuto dello stack, comprese le locazioni di quest'ultimo contenenti indirizzo del base pointer 
  della funzione chiamante e l'indirizzo di ritorno all'istruzione nella funzione chiamante successiva all'applicazione della
  funzione chiamata. Quindi abbiamo visto come dirottare il Program Counter in modo da fargli eseguire istruzioni a nostro
  piacimento, come istruzioni contenute all'interno di una variabile d'ambiente (inizializzata con uno shellcode) o come
