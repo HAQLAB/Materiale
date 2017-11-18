@@ -10,3 +10,38 @@
  - Visto brevemente come riempire un buffer in memoria con un nop sled seguito da uno shellcode e, tramite
  un buffer overflow, dirottare l'esecuzione del programma per farlo eseguire.
  - Visto il sito https://packetstormsecurity.com/files/tags/shellcode/ per mostrare possibili shellcodes.
+ _____________________________________________________________________________________________________________________________
+ - Mininet SimpleTopology
+ sudo mn  --topo single,3  --mac  --switch  ovsk
+ una topologia con un open vswitch e 3 hosts
+ - python coding of a Mininet SimpleTopology
+ Prepare a SingleSwitchTopo class that adds a single switch 
+class SingleSwitchTopo(Topo):
+    "Single switch connected to n hosts."
+    def __init__(self, n=2, **opts):
+                Topo.__init__(self, **opts)
+                switch = self.addSwitch('s1')
+and n hosts into a network. Each link connected from host to switch can be set the bandwidth, delay time, and loss rate. 
+for h in range(n):
+                    #Each host gets 50%/n of system CPU
+                        host = self.addHost('h%s' % (h + 1), cpu=.5/n)
+                #10 Mbps, 5ms delay, 0% Loss, 1000 packet queue
+                        self.addLink(host, switch, bw=10, delay='5ms', loss=0, max_queue_size=1000, use_htb=True)
+Then create a network that contains one switch and 4 hosts. Finally, use iperf to test the bandwidth between host 1 and host 4.
+def perfTest():
+    "Create network and run simple performance test"
+        topo = SingleSwitchTopo(n=4)
+        net = Mininet(topo=topo,host=CPULimitedHost, link=TCLink)
+        net.start()
+_____________________________________________________________________________________________________________________
+First Scapy Lecture (Looking at a Packet)
+Packet summary() and show() methods 
+Welcome to Scapy (2.3.3)
+""" pcap from malware traffic analysis """
+>>> pkts = rdpcap('t.pcap')
+>>> pkts[0].summary()
+>>> pkts[0].show()
+        
+
+ 
+ 
