@@ -1,0 +1,17 @@
+- visto brevemente come usare il motore di ricerca shodan.io
+- viste alcune queries possibili su shodan, es:
+  - product:"Call of duty" (per cercare i server di Call of Duty)
+  - country:IT city:L\'aquila ftp login in (per cercare chi a L'Aquila ha dei server ftp accessibili da Internet)
+  - country:IT city:L\'aquila apache (per cercare chi a L'Aquila ha dei server apache esposti a Internet)
+  - vuln:cve-2014-0160 country:IT (per cercare i server italiani affetti da heartbleed)
+ 
+ - Visto in breve come si esegue un Penetration Testing eseguendolo su https://lab.pentestit.ru/. Nello specifico:
+  - breve panoramica su quali sono gli step da eseguire.
+  - visto brevemente come fare vari tipi di bruteforcing (http-post, vpn, rdp), come ottenere una rce su un server vulnerabile
+   e come usare nmap, etc.
+  - visto brevemente come fare pivoting tramite portforwarding e tunnels vpn.
+  - visto come diventare l'utente system su un Windows 7 vulnerabile ad un exploit per powershell
+  - in poche parole visto brevemente come ownare una manciata di sistemi.
+
+- Tutto ciò che abbiamo visto era solo per dare una panoramica su cosa sia un penetration testing e quali sono le sue fasi.
+  Nelle prossime lezioni dedicheremo varie lezioni per ogni fase, mostrandone tecniche e tools.
