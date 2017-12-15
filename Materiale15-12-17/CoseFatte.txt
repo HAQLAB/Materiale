@@ -37,12 +37,14 @@ Nello specifico:
 -Siti web:
     http://google.com (con le google dorks --> https://www.exploit-db.com/google-hacking-database/)
     http://www.serversniff.net
+    https://web.archive.org/
+    https://dnstrails.com/
     https://shodan.io
     https://whois.net
     https://searchdns.netcraft.com
     https://www.robtex.com/
     https://www.virustotal.com/#/home/search
-    https://dnstrails.com/
+    
     (e tutti quelli aperti da goohak.sh)
 
 Infine abbiamo visto alcuni comandi di radare2 per fare il reverse di un binario ma che approfondiremo nelle lezioni future..
