@@ -1,0 +1,19 @@
+Affrontata la parte di Recon o Information Gathering relativa ad un pentest.
+Nello specifico:
+-Tools e comandi utilizzati:
+  
+  theharvester:
+    theharvester -d <dominio target> -v -h -b all
+  
+  nslookup:
+    > server <server dns>
+    > set type=any
+    > <dominio target>
+  
+   dnsenum:
+    dnsenum.pl <dominio target>
+   
+   dig:
+    dig @<server dns> <dominio target>
+    dig @<server dns> <dominio target> -t txt
+    dig @<server dns> <dominio target> -t axfr (zone transfer)
