@@ -36,6 +36,7 @@ Nello specifico:
 
 -Siti web:
     http://google.com (con le google dorks --> https://www.exploit-db.com/google-hacking-database/)
+    http://www.serversniff.net
     https://shodan.io
     https://whois.net
     https://searchdns.netcraft.com
