@@ -17,3 +17,20 @@ Nello specifico:
     dig @<server dns> <dominio target>
     dig @<server dns> <dominio target> -t txt
     dig @<server dns> <dominio target> -t axfr (zone transfer)
+    dig @nsztm2.digi.ninja zonetransfer.me -t axfr (esempio di zone transfer)
+    
+    fierce:
+     fierce.py --domain <dominio target>
+ 
+    goohak:
+      goohak.sh <dominio target>
+
+-Siti web:
+    http://google.com (con le google dorks)
+    https://whois.net
+    https://searchdns.netcraft.com
+    https://www.robtex.com/
+    https://www.virustotal.com/#/home/search
+    (e tutti quelli aperti da goohak.sh)
+
+Infine abbiamo visto alcuni comandi di radare2 per fare il reverse di un binario ma che approfondiremo nelle lezioni future..
