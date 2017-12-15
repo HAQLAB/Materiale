@@ -30,9 +30,13 @@ Nello specifico:
  
     goohak:
       goohak.sh <dominio target>
+      
+    whatweb:
+      whatweb <dominio target>
 
 -Siti web:
     http://google.com (con le google dorks)
+    https://shodan.io
     https://whois.net
     https://searchdns.netcraft.com
     https://www.robtex.com/
