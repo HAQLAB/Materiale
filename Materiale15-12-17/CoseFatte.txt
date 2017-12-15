@@ -31,6 +31,7 @@ Nello specifico:
     https://searchdns.netcraft.com
     https://www.robtex.com/
     https://www.virustotal.com/#/home/search
+    https://dnstrails.com/
     (e tutti quelli aperti da goohak.sh)
 
 Infine abbiamo visto alcuni comandi di radare2 per fare il reverse di un binario ma che approfondiremo nelle lezioni future..
