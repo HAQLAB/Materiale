@@ -2,6 +2,12 @@ Affrontata la parte di Recon o Information Gathering relativa ad un pentest.
 Nello specifico:
 -Tools e comandi utilizzati:
   
+  host:
+    host <dominio target>
+    
+  whois:
+    whois <dominio target>
+    
   theharvester:
     theharvester -d <dominio target> -v -h -b all
   
