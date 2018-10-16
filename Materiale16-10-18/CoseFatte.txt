@@ -1,0 +1,26 @@
+lato hardware:
+	architetture:
+	    i386
+	    amd64
+
+lato software:
+	linguaggi:
+	    asm
+	    c, c++
+	    python
+
+	sistemi operativi:
+	    syscall
+	    librerie
+	    file eseguibili (elf) e meccanismi di protezione (Canary, NX, RELRO, PIE, ....)
+
+	programmi:
+	    analisi statica:
+	        strings, checksec (pwntools), objdump, file
+	        radare2
+	    analisi dinamica:
+	        strace
+	        ltrace
+	        gdb + peda
+
+prima challenge, stack0, basata su buffer overflow
